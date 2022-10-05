@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+header menu {
+    display: none;
+}
+
+article {
+    width: 100%;
+}
+
+article > h2{
+    text-align: center;
+}
+
+article > hr {
+    margin: 5px 0px 5px 0px;
+}
+
+article::after{
+    display: block;
+    content: 'conteúdo inspirado nos projetos do cursoemvideo.com';
+    text-decoration: underline;
+    color: lightgray;
+    text-align: right;
+}
